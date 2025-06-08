@@ -1,3 +1,3 @@
-public interface Aquatico; {
+public interface Aquatico {
     void nadar();
 }
