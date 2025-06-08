@@ -1,3 +1,5 @@
+package Zoologico;
+
 public class Principal {
     public static void main(String[] args) {
         Leao leao = new Leao();
@@ -7,7 +9,7 @@ public class Principal {
         leao.emitirSom();
         leao.alimentar();
 
-        System.out.println("Comportamento do Peixe: ");
+        System.out.println("\nComportamento do Peixe: ");
         peixe.emitirSom();
         peixe.alimentar();
         peixe.nadar();

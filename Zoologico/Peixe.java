@@ -1,3 +1,5 @@
+package Zoologico;
+
 public class Peixe extends Animal implements Aquatico {
     @Override
     public void emitirSom() {
